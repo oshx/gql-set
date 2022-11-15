@@ -1,0 +1,14 @@
+{
+  "name": "gql-set",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "g": "yarn workspace @gql-set/gateway",
+    "w": "yarn workspace @gql-set/web"
+  },
+  "workspaces": [
+    "./workspaces/*"
+  ]
+}
